@@ -69,14 +69,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-04-27 03:35:51</sys_created_on>
         <sys_id>b8c6a2baf45232007f44717f642a227b</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>Card List Simple</sys_name>
         <sys_package display_value="Reusable Widgets" source="x_snc_reusable_wid">cbefa4faf41232007f44717f642a22b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reusable Widgets">cbefa4faf41232007f44717f642a22b4</sys_scope>
         <sys_update_name>sp_widget_b8c6a2baf45232007f44717f642a227b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-04-28 17:50:34</sys_updated_on>
+        <sys_updated_on>2017-04-28 17:58:39</sys_updated_on>
         <template><![CDATA[<div>
   <div class="panel panel-default">
     <div class="panel-heading">
@@ -84,8 +84,8 @@
     </div>
     <div class="panel-body">
       <div class="list-group" ng-repeat="row in c.data.rows track by row.sys_id">
-        <a href="#" class="h4 list-group-item">
-          <span class="list-group-item-heading">{{c.getPrimaryField(row)}}</span>
+        <a href="#" class="list-group-item">
+          <div class="h4 list-group-item-heading">{{c.getPrimaryField(row)}}</div>
           <dl class="fields">
             <span ng-repeat="f in c.cardFields"><dt>{{c.data.fields[f].label}}</dt><dd>{{row[f]}}</dd></span>
           </dl>
