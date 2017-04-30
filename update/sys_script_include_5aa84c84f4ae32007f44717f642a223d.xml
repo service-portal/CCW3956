@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_reusable_wid.ListViewHelper</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>ListViewHelper</name>
+        <script><![CDATA[var ListViewHelper = Class.create();
+ListViewHelper.prototype = {
+    initialize: function() {
+    },
+	
+	getViewsForList: function(table) {
+		var views = [];
+		var gr = new GlideRecord("sys_ui_list");
+		gr.addEncodedQuery("viewNOT LIKErpt^sys_userISEMPTY");
+		gr.addQuery("name", table);
+		gr.query();
+		while(gr.next()) {
+			var view = gr.getValue("view");
+			if (views.indexOf(view) == -1) {
+				views.push(view);
+			}
+		}
+		return views.join(",");
+	},
+
+    type: 'ListViewHelper'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-30 14:03:58</sys_created_on>
+        <sys_id>5aa84c84f4ae32007f44717f642a223d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ListViewHelper</sys_name>
+        <sys_package display_value="Reusable Widgets" source="x_snc_reusable_wid">cbefa4faf41232007f44717f642a22b4</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Reusable Widgets">cbefa4faf41232007f44717f642a22b4</sys_scope>
+        <sys_update_name>sys_script_include_5aa84c84f4ae32007f44717f642a223d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-30 14:03:58</sys_updated_on>
+    </sys_script_include>
+</record_update>

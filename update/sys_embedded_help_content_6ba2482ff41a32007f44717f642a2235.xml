@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_content">
+    <sys_embedded_help_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <content/>
+        <last_sync>2017-04-28 23:34:25</last_sync>
+        <modifier>normal</modifier>
+        <name>sys_db_object-normal</name>
+        <page>sys_db_object</page>
+        <product>1</product>
+        <qualifier/>
+        <role/>
+        <role_order>1000</role_order>
+        <snc_created>true</snc_created>
+        <sys_class_name>sys_embedded_help_content</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-28 23:34:25</sys_created_on>
+        <sys_id>6ba2482ff41a32007f44717f642a2235</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_db_object-normal</sys_name>
+        <sys_package display_value="Reusable Widgets" source="x_snc_reusable_wid">cbefa4faf41232007f44717f642a22b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reusable Widgets">cbefa4faf41232007f44717f642a22b4</sys_scope>
+        <sys_update_name>sys_embedded_help_content_6ba2482ff41a32007f44717f642a2235</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-28 23:34:25</sys_updated_on>
+        <version>j</version>
+    </sys_embedded_help_content>
+    <sys_translated_text action="delete_multiple" query="documentkey=6ba2482ff41a32007f44717f642a2235"/>
+</record_update>

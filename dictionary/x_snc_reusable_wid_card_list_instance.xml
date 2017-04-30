@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="update_synch=true" extends="sp_instance_table" label="Card List Instance" max_length="40" name="x_snc_reusable_wid_card_list_instance" type="collection">
+        <element display="true" label="View" max_length="32" name="view" reference="sys_ui_view" reference_qual="javascript:&quot;sys_idIN&quot; + new x_snc_reusable_wid.ListViewHelper().getViewsForList(current.table)" type="reference" use_reference_qualifier="advanced"/>
+        <index name="index">
+            <element name="view"/>
+        </index>
+    </element>
+</database>
