@@ -5,10 +5,9 @@
         <class_name/>
         <color>default</color>
         <css/>
-        <display_field>short_description</display_field>
+        <display_field/>
         <field_list/>
-        <filter table="incident">active=true<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
-        </filter>
+        <filter/>
         <glyph/>
         <id/>
         <maximum_entries>5</maximum_entries>
@@ -23,26 +22,21 @@
         <sp_widget display_value="Card List">832d5488f4ae32007f44717f642a228d</sp_widget>
         <sys_class_name>x_snc_reusable_wid_card_list_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-04-30 20:05:39</sys_created_on>
-        <sys_id>4916e9c4f4ee32007f44717f642a221e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>c05f5240601232007f44c64fabb1315b</sys_name>
+        <sys_created_on>2017-05-01 18:42:19</sys_created_on>
+        <sys_id>c29cded40ba23200b0b02c6317673ad1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
         <sys_package display_value="Reusable Widgets" source="x_snc_reusable_wid">cbefa4faf41232007f44717f642a22b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reusable Widgets">cbefa4faf41232007f44717f642a22b4</sys_scope>
-        <sys_update_name>x_snc_reusable_wid_card_list_instance_4916e9c4f4ee32007f44717f642a221e</sys_update_name>
+        <sys_update_name>x_snc_reusable_wid_card_list_instance_c29cded40ba23200b0b02c6317673ad1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-04-30 22:36:04</sys_updated_on>
-        <table>incident</table>
-        <title>Active Incidents</title>
+        <sys_updated_on>2017-05-01 18:42:19</sys_updated_on>
+        <table/>
+        <title/>
         <url/>
-        <view display_value="Mobile" name="Mobile">c05f5240601232007f44c64fabb1315b</view>
-        <widget_parameters><![CDATA[{
-	"priority_field": {
-		"value": "",
-		"displayValue": ""
-	}
-}]]></widget_parameters>
+        <view/>
+        <widget_parameters/>
     </x_snc_reusable_wid_card_list_instance>
-    <sys_translated_text action="delete_multiple" query="documentkey=4916e9c4f4ee32007f44717f642a221e"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=c29cded40ba23200b0b02c6317673ad1"/>
 </record_update>
