@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_angular_provider">
+    <sp_angular_provider action="INSERT_OR_UPDATE">
+        <name>workspaceCard</name>
+        <script><![CDATA[function() {
+	var template = "<div class='list-group'>";
+		template += "<a href='javascript:void(0)' class='list-group-item' ng-style='::ctrl.getPriority()'>";
+		template += "<div class='small'>{{::row[primaryField]}}</div>";
+		template += "<div class='h4 list-group-item-heading'>{{::row[displayField]}}</div>";
+		template += "<dl class='fields'>";
+		template += "<span ng-repeat='f in cardFields'><dt>{{fields[f].label}}</dt><dd>{{row[f]}}</dd></span>";
+		template += "</dl>";
+		template += "</a>";
+		template += "</div>";
+	return {
+		restrict: 'E',
+		scope: {
+			row: '=',
+			primaryField: '=',
+			displayField: '=',
+			priorityField: '=',
+			fields: '=',
+			cardFields: '='
+		},
+		template: template,
+		controllerAs: 'ctrl',
+		controller: function($scope) {
+			var ctrl = this;
+			var row = $scope.row;
+			console.info($scope.cardFields);
+			ctrl.getPrimaryField = function getPrimaryField() {
+				return row[$scope.primaryField];
+			};
+			ctrl.getPriority = function() {
+				if (typeof row[$scope.priorityField] == "undefined") {
+					return;
+				}
+				var p = row[$scope.priorityField];
+				var color;
+				if (p.indexOf('4') > -1) {
+					color = 'green';
+				} else if (p.indexOf('3') > -1) {
+					color = 'yellow';
+				} else if (p.indexOf('2') > -1) {
+					color = 'orange';
+				} else if (p.indexOf('1') > -1) {
+					color = 'red';
+				}
+				if (color) {
+					return {'border-left': '3px solid ' + color};
+				}
+			};
+		}
+	};
+}]]></script>
+        <sys_class_name>sp_angular_provider</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-02 18:06:54</sys_created_on>
+        <sys_id>defd9b28c7223200b0b0409b9b97638c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>workspaceCard</sys_name>
+        <sys_package display_value="Reusable Widgets" source="x_snc_reusable_wid">cbefa4faf41232007f44717f642a22b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reusable Widgets">cbefa4faf41232007f44717f642a22b4</sys_scope>
+        <sys_update_name>sp_angular_provider_defd9b28c7223200b0b0409b9b97638c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-02 21:47:47</sys_updated_on>
+        <type>directive</type>
+    </sp_angular_provider>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="m2m_sp_ng_pro_sp_widget">
+    <m2m_sp_ng_pro_sp_widget action="INSERT_OR_UPDATE">
+        <sp_angular_provider display_value="workspaceCard">defd9b28c7223200b0b0409b9b97638c</sp_angular_provider>
+        <sp_widget display_value="Card List">832d5488f4ae32007f44717f642a228d</sp_widget>
+        <sys_class_name>m2m_sp_ng_pro_sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-02 18:06:54</sys_created_on>
+        <sys_id>151e5f28c7223200b0b0409b9b9763ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>card.Card List</sys_name>
+        <sys_package display_value="Reusable Widgets" source="x_snc_reusable_wid">cbefa4faf41232007f44717f642a22b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reusable Widgets">cbefa4faf41232007f44717f642a22b4</sys_scope>
+        <sys_update_name>m2m_sp_ng_pro_sp_widget_151e5f28c7223200b0b0409b9b9763ce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-02 18:06:54</sys_updated_on>
+    </m2m_sp_ng_pro_sp_widget>
+</record_update>
