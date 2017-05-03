@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function($http) {
+  /* widget controller */
+  var c = this;
+	
+	var countExpressions = c.options.count_expressions.split(";");
+	c.counters = [];
+	for(var i=0;i<=countExpressions.length-1;i++) {
+		var parts = countExpressions[i].split(",");
+		var counter = makeCounter(parts[0], parts[1]);
+		runCounter(counter);
+		c.counters.push(counter);
+	}
+	
+	function runCounter(counter) {
+		var url = "/api/now/stats/"+ c.options.table +"?sysparm_query="+ counter.filter +"&sysparm_count=true";
+		$http.get(url).then(function(response) {
+			counter.count = response.data.result.stats.count;
+		});
+	}
+	
+	function makeCounter(label, filter) {
+		return {label: label, filter: filter, count: 0};
+	}
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>$workspace-header-background: $gray-light !default;
+$workspace-header-padding: 5px !default;
+
+.workspace-header {
+	background-color: $workspace-header-background;
+  margin: 0px;
+  margin-bottom: 5px;
+  padding: $workspace-header-padding;
+  
+  @include border-top-radius(3px);
+  @include border-bottom-radius(3px);
+  
+  
+  .count {
+  	font-size: 3rem;
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px;
+    
+    .count-label {
+      font-size: 1.8rem;
+    	display: block;
+    }
+  }
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>workspace_header</id>
+        <internal>false</internal>
+        <link/>
+        <name>Workspace header</name>
+        <option_schema>[{"name":"title","default_value":"Header title here","label":"Title","type":"string"},{"hint":"","name":"table","default_value":"incident","label":"Table","type":"string"},{"hint":"Label,query;Label,query;...","name":"count_expressions","default_value":"Unassigned Incidents,assigned_toISEMPTY;New Incidents,state=1","label":"Count expressions","type":"string"}]</option_schema>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-03 15:58:16</sys_created_on>
+        <sys_id>223a800dc7623200b0b0409b9b9763bc</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_name>Workspace header</sys_name>
+        <sys_package display_value="Reusable Widgets" source="x_snc_reusable_wid">cbefa4faf41232007f44717f642a22b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reusable Widgets">cbefa4faf41232007f44717f642a22b4</sys_scope>
+        <sys_update_name>sp_widget_223a800dc7623200b0b0409b9b9763bc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-03 23:07:50</sys_updated_on>
+        <template><![CDATA[<div class="workspace-header clearfix">
+    <div class="pull-right">
+      <div class="count" ng-repeat="counter in c.counters">
+        {{counter.count}}
+        <span class="count-label">{{::counter.label}}</span>
+      </div>
+    </div>
+    <div class="h2">
+      Incident Management
+    </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

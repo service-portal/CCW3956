@@ -13,7 +13,7 @@
         <glyph/>
         <id/>
         <maximum_entries>5</maximum_entries>
-        <order>1</order>
+        <order>0</order>
         <order_by/>
         <order_direction>asc</order_direction>
         <roles/>
@@ -26,14 +26,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-05-02 21:41:36</sys_created_on>
         <sys_id>5a3f8870c7623200b0b0409b9b97635f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>6f9053720b023200b0b02c6317673a49</sys_name>
         <sys_package display_value="Reusable Widgets" source="x_snc_reusable_wid">cbefa4faf41232007f44717f642a22b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reusable Widgets">cbefa4faf41232007f44717f642a22b4</sys_scope>
         <sys_update_name>x_snc_reusable_wid_card_list_instance_5a3f8870c7623200b0b0409b9b97635f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-05-02 21:59:11</sys_updated_on>
+        <sys_updated_on>2017-05-03 16:29:54</sys_updated_on>
         <table>incident</table>
         <title>Active Incidents</title>
         <url/>
