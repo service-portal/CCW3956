@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="sp_widget">
     <sp_widget action="INSERT_OR_UPDATE">
-        <client_script><![CDATA[function() {
+        <client_script><![CDATA[function($scope) {
 	/* widget controller */
 	var c = this;
 	
@@ -50,6 +50,37 @@
 		return true;
 	}
 	
+	c.showFilter = function showFilter(event) {
+		var filterModalCtrl;
+		event.preventDefault();
+		event.stopPropagation();
+		
+		var unregister = $scope.$on("snfilter:update_query", function(e, query) {
+			e.stopPropagation();
+			e.preventDefault();
+			console.info("new Query", massageEncodedQuery(query));
+			// Todo: call webservice for data
+			filterModalCtrl.close();
+		});
+		
+		var filterModal = angular.copy(c.data.filterModal);
+		filterModal.options.afterOpen = function(ctrl){
+			filterModalCtrl = ctrl;
+			$scope.$broadcast("snfilter:initialize_query", massageEncodedQuery(c.options.filter));
+		};
+		
+		filterModal.options.afterClose = function() {
+			unregister();
+			c.filterModal = null;
+			filterModalCtrl = null;
+		};
+		c.filterModal = filterModal;
+	}
+	
+	function massageEncodedQuery(query) {
+		return (query) ? query.replace(/CONTAINS/g, "LIKE").replace(/DOES NOT CONTAIN/g, "NOT LIKE") : query;
+	}
+	
 }]]></client_script>
         <controller_as>c</controller_as>
         <css>.fields {
@@ -86,6 +117,7 @@
 	/* e.g., data.table = $sp.getValue('table'); */
 
 	if (options.table) {
+		data.filterModal = $sp.getWidget('widget-modal', {'embeddedWidgetId': 'sn-desktop-filter', 'embeddedWidgetOptions': { table: options.table, initialQuery: options.filter }});
 		data.cardFields = $sp.getListColumns(options.table, options.view_dv);
 		data.rows = [];
 		var gr = new GlideRecord(options.table);
@@ -110,18 +142,19 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-04-30 14:47:07</sys_created_on>
         <sys_id>832d5488f4ae32007f44717f642a228d</sys_id>
-        <sys_mod_count>43</sys_mod_count>
+        <sys_mod_count>57</sys_mod_count>
         <sys_name>Card List</sys_name>
         <sys_package display_value="Reusable Widgets" source="x_snc_reusable_wid">cbefa4faf41232007f44717f642a22b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reusable Widgets">cbefa4faf41232007f44717f642a22b4</sys_scope>
         <sys_update_name>sp_widget_832d5488f4ae32007f44717f642a228d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-05-02 22:09:01</sys_updated_on>
+        <sys_updated_on>2017-05-03 14:25:23</sys_updated_on>
         <template><![CDATA[<div>
+  <sp-widget widget="c.filterModal" ng-if="c.filterModal"></sp-widget>
   <div class="panel panel-default">
     <div class="panel-heading">
-      <span class="h3 panel-title">{{::c.options.title}}</span>
+      <a href="javascript:void(0)" ng-click="c.showFilter($event)" class="pull-right"><span class="glyphicon glyphicon-search"></span></a> <span class="h3 panel-title">{{::c.options.title}}</span>
     </div>
     <div class="panel-body">
       <workspace-card ng-repeat="row in c.data.rows track by row.sys_id"
