@@ -7,7 +7,7 @@
         <css/>
         <glyph/>
         <id/>
-        <order>1</order>
+        <order>0</order>
         <roles/>
         <short_description/>
         <size>md</size>
@@ -17,14 +17,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-05-03 16:40:01</sys_created_on>
         <sys_id>c2c3944dc7623200b0b0409b9b9763fb</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Incident workspace</sys_name>
         <sys_package display_value="Reusable Widgets" source="x_snc_reusable_wid">cbefa4faf41232007f44717f642a22b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reusable Widgets">cbefa4faf41232007f44717f642a22b4</sys_scope>
         <sys_update_name>sp_instance_c2c3944dc7623200b0b0409b9b9763fb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-05-04 23:09:27</sys_updated_on>
+        <sys_updated_on>2017-05-05 03:33:40</sys_updated_on>
         <title>Incident workspace</title>
         <url/>
         <widget_parameters><![CDATA[{
