@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_dependency">
+    <sp_dependency action="INSERT_OR_UPDATE">
+        <module/>
+        <name>Designer workaround</name>
+        <page_load>true</page_load>
+        <sp_portals/>
+        <sys_class_name>sp_dependency</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-05 00:29:30</sys_created_on>
+        <sys_id>3aa80b91c7623200b0b0409b9b976355</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Designer workaround</sys_name>
+        <sys_package display_value="Reusable Widgets" source="x_snc_reusable_wid">cbefa4faf41232007f44717f642a22b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reusable Widgets">cbefa4faf41232007f44717f642a22b4</sys_scope>
+        <sys_update_name>sp_dependency_3aa80b91c7623200b0b0409b9b976355</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-05 00:32:05</sys_updated_on>
+    </sp_dependency>
+</record_update>
