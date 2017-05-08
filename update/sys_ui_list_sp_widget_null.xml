@@ -1,156 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
     <sys_ui_list parent="" relationship="" sys_domain="global" table="sp_widget" version="2" view="">
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
+        <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>name</element>
-            <list_id display_value="sp_widget" element="NULL" name="sp_widget" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e1addb28c7223200b0b0409b9b9763ff</list_id>
+            <element/>
             <max_value>false</max_value>
             <min_value>false</min_value>
-            <position>0</position>
+            <name>sys_metadata</name>
+            <parent/>
+            <position/>
+            <relationship/>
             <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-05-02 18:05:02</sys_created_on>
-            <sys_id>31ad1f28c7223200b0b0409b9b976300</sys_id>
+            <sys_created_on>2014-10-08 04:52:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bc8e8f32d723210092610eca5e610302</sys_id>
             <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_metadata</sys_name>
+            <sys_package display_value="Glide Metadata" source="com.glide.metadata">00d097e10b223200b0b02c6317673ad5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Global">global</sys_scope>
+            <sys_update_name>sys_ui_list_sys_metadata_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-05-02 18:05:02</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>client_script</element>
-            <list_id display_value="sp_widget" element="NULL" name="sp_widget" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e1addb28c7223200b0b0409b9b9763ff</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>1</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-05-02 18:05:02</sys_created_on>
-            <sys_id>39ad1f28c7223200b0b0409b9b976300</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-05-02 18:05:02</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>controller_as</element>
-            <list_id display_value="sp_widget" element="NULL" name="sp_widget" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e1addb28c7223200b0b0409b9b9763ff</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>2</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-05-02 18:05:02</sys_created_on>
-            <sys_id>b9ad1f28c7223200b0b0409b9b976300</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-05-02 18:05:02</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>css</element>
-            <list_id display_value="sp_widget" element="NULL" name="sp_widget" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e1addb28c7223200b0b0409b9b9763ff</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>3</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-05-02 18:05:02</sys_created_on>
-            <sys_id>3dad1f28c7223200b0b0409b9b976300</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-05-02 18:05:02</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>data_table</element>
-            <list_id display_value="sp_widget" element="NULL" name="sp_widget" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e1addb28c7223200b0b0409b9b9763ff</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>4</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-05-02 18:05:02</sys_created_on>
-            <sys_id>bdad1f28c7223200b0b0409b9b976300</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-05-02 18:05:02</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>demo_data</element>
-            <list_id display_value="sp_widget" element="NULL" name="sp_widget" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e1addb28c7223200b0b0409b9b9763ff</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>5</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-05-02 18:05:02</sys_created_on>
-            <sys_id>31ad1f28c7223200b0b0409b9b976301</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-05-02 18:05:02</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>description</element>
-            <list_id display_value="sp_widget" element="NULL" name="sp_widget" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e1addb28c7223200b0b0409b9b9763ff</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>6</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-05-02 18:05:02</sys_created_on>
-            <sys_id>b1ad1f28c7223200b0b0409b9b976301</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-05-02 18:05:02</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>docs</element>
-            <list_id display_value="sp_widget" element="NULL" name="sp_widget" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e1addb28c7223200b0b0409b9b9763ff</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>7</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-05-02 18:05:02</sys_created_on>
-            <sys_id>35ad1f28c7223200b0b0409b9b976301</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-05-02 18:05:02</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>field_list</element>
-            <list_id display_value="sp_widget" element="NULL" name="sp_widget" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e1addb28c7223200b0b0409b9b9763ff</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>8</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-05-02 18:05:02</sys_created_on>
-            <sys_id>b5ad1f28c7223200b0b0409b9b976301</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-05-02 18:05:02</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>has_preview</element>
-            <list_id display_value="sp_widget" element="NULL" name="sp_widget" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e1addb28c7223200b0b0409b9b9763ff</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>9</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-05-02 18:05:02</sys_created_on>
-            <sys_id>39ad1f28c7223200b0b0409b9b976301</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-05-02 18:05:02</sys_updated_on>
-        </sys_ui_list_element>
+            <sys_updated_on>2014-10-08 04:52:14</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element/>
@@ -168,11 +46,11 @@
             <sys_domain_path>/</sys_domain_path>
             <sys_id>59bd1f28c7223200b0b0409b9b97636f</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name/>
-            <sys_package/>
+            <sys_name>sp_widget</sys_name>
+            <sys_package display_value="Reusable Widgets" source="x_snc_reusable_wid">cbefa4faf41232007f44717f642a22b4</sys_package>
             <sys_policy/>
             <sys_scope display_value="Reusable Widgets">cbefa4faf41232007f44717f642a22b4</sys_scope>
-            <sys_update_name/>
+            <sys_update_name>sys_ui_list_sp_widget_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-05-02 18:05:16</sys_updated_on>
             <sys_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</sys_user>
