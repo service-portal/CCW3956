@@ -6,7 +6,6 @@
         <advanced>false</advanced>
         <condition/>
         <description>Default access control on x_snc_reusable_wid_card_list_instance</description>
-        <express_security>false</express_security>
         <name>x_snc_reusable_wid_card_list_instance</name>
         <operation display_value="write">write</operation>
         <script/>

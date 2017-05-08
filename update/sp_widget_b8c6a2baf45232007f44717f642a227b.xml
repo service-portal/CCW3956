@@ -2,9 +2,8 @@
 <record_update table="sp_widget">
     <sp_widget action="INSERT_OR_UPDATE">
         <client_script><![CDATA[function() {
-  /* widget controller */
   var c = this;
-	c.cardFields = c.options.fields.split(",");
+	c.cardFields = (c.options.fields) ? c.options.fields.split(",") : "";
 	c.getPrimaryField = function getPrimaryField(row){
 		return row[c.data.primaryField];
 	};
@@ -40,9 +39,6 @@
         <public>false</public>
         <roles/>
         <script><![CDATA[(function() {
-	/* populate the 'data' object */
-	/* e.g., data.table = $sp.getValue('table'); */
-
 	if (options.table) {
 		data.rows = [];
 		var gr = new GlideRecord(options.table);
@@ -60,21 +56,20 @@
 			data.rows.push(row);
 		}
 	}
-
 })();]]></script>
         <servicenow>false</servicenow>
         <sys_class_name>sp_widget</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-04-27 03:35:51</sys_created_on>
         <sys_id>b8c6a2baf45232007f44717f642a227b</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>Card List Simple</sys_name>
         <sys_package display_value="Reusable Widgets" source="x_snc_reusable_wid">cbefa4faf41232007f44717f642a22b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reusable Widgets">cbefa4faf41232007f44717f642a22b4</sys_scope>
         <sys_update_name>sp_widget_b8c6a2baf45232007f44717f642a227b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-04-28 18:07:17</sys_updated_on>
+        <sys_updated_on>2017-05-08 15:16:10</sys_updated_on>
         <template><![CDATA[<div>
   <div class="panel panel-default">
     <div class="panel-heading">

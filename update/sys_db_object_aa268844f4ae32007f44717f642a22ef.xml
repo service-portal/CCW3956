@@ -17,7 +17,7 @@
         <number_ref/>
         <provider_class/>
         <read_access>true</read_access>
-        <super_class display_value="Instance with Table" name="sp_instance_table">327a17320b823200b0b02c6317673a3f</super_class>
+        <super_class display_value="Instance with Table" name="sp_instance_table">2e4f2a00609232007f44c64fabb1315e</super_class>
         <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path/>
