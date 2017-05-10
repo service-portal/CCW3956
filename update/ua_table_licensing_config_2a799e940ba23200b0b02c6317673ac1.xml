@@ -13,13 +13,13 @@
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-04-30 13:07:13</sys_created_on>
-        <sys_id>7a1f2d6638ae32007f447b489f248fc5</sys_id>
+        <sys_id>2a799e940ba23200b0b02c6317673ac1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_snc_reusable_wid_card_list_instance</sys_name>
         <sys_package display_value="Reusable Widgets" source="x_snc_reusable_wid">cbefa4faf41232007f44717f642a22b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reusable Widgets">cbefa4faf41232007f44717f642a22b4</sys_scope>
-        <sys_update_name>ua_table_licensing_config_7a1f2d6638ae32007f447b489f248fc5</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_2a799e940ba23200b0b02c6317673ac1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2017-04-30 13:07:13</sys_updated_on>
     </ua_table_licensing_config>

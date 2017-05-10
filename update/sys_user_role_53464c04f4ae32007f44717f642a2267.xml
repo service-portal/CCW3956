@@ -8,6 +8,7 @@
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_snc_reusable_wid.card_list_instance_user</name>
+        <snbe>false</snbe>
         <suffix>card_list_instance_user</suffix>
         <sys_class_name>sys_user_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
