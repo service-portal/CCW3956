@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_page">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
     <sp_page action="INSERT_OR_UPDATE">
+        <category/>
         <css/>
         <draft>false</draft>
+        <dynamic_title_structure/>
         <id>playground_home</id>
         <internal>false</internal>
         <public>false</public>

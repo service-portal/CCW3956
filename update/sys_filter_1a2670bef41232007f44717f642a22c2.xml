@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_filter">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_filter">
     <sys_filter action="INSERT_OR_UPDATE">
         <filter table="sp_page">idSTARTSWITHplaygrou^idISNOTEMPTY^EQ<item endquery="false" field="id" goto="false" newquery="false" operator="STARTSWITH" or="false" value="playgrou"/>
             <item endquery="false" field="id" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
@@ -27,4 +26,5 @@
         <title>mobile</title>
         <user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user>
     </sys_filter>
+    <sys_translated_text action="delete_multiple" query="documentkey=1a2670bef41232007f44717f642a22c2"/>
 </record_update>

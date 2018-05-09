@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_documentation element="view" label="View" language="en" table="x_snc_reusable_wid_card_list_instance">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>view</element>

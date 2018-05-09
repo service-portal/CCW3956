@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Data" section_id="b22ccb980b4213007bd12c6317673a97" sys_domain="global" table="x_snc_reusable_wid_card_list_instance" version="3" view="sp_instance_config">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>table</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-09 18:01:05</sys_created_on>
+            <sys_id>fa2ccb980b4213007bd12c6317673a98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Data" display_value="Data" name="x_snc_reusable_wid_card_list_instance" sys_domain="global" view="0ce54027b33232007a6de81816a8dca1">b22ccb980b4213007bd12c6317673a97</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-09 18:01:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>id</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-09 18:01:05</sys_created_on>
+            <sys_id>762ccb980b4213007bd12c6317673a99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Data" display_value="Data" name="x_snc_reusable_wid_card_list_instance" sys_domain="global" view="0ce54027b33232007a6de81816a8dca1">b22ccb980b4213007bd12c6317673a97</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-09 18:01:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>filter</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-09 18:01:05</sys_created_on>
+            <sys_id>7a2ccb980b4213007bd12c6317673a99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Data" display_value="Data" name="x_snc_reusable_wid_card_list_instance" sys_domain="global" view="0ce54027b33232007a6de81816a8dca1">b22ccb980b4213007bd12c6317673a97</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-09 18:01:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>field_list</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-09 18:01:05</sys_created_on>
+            <sys_id>7e2ccb980b4213007bd12c6317673a99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Data" display_value="Data" name="x_snc_reusable_wid_card_list_instance" sys_domain="global" view="0ce54027b33232007a6de81816a8dca1">b22ccb980b4213007bd12c6317673a97</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-09 18:01:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>maximum_entries</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-09 18:01:05</sys_created_on>
+            <sys_id>722ccb980b4213007bd12c6317673a9a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Data" display_value="Data" name="x_snc_reusable_wid_card_list_instance" sys_domain="global" view="0ce54027b33232007a6de81816a8dca1">b22ccb980b4213007bd12c6317673a97</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-09 18:01:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>display_field</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-09 18:01:05</sys_created_on>
+            <sys_id>762ccb980b4213007bd12c6317673a9a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Data" display_value="Data" name="x_snc_reusable_wid_card_list_instance" sys_domain="global" view="0ce54027b33232007a6de81816a8dca1">b22ccb980b4213007bd12c6317673a97</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-09 18:01:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_name</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-09 18:01:05</sys_created_on>
+            <sys_id>7a2ccb980b4213007bd12c6317673a9a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Data" display_value="Data" name="x_snc_reusable_wid_card_list_instance" sys_domain="global" view="0ce54027b33232007a6de81816a8dca1">b22ccb980b4213007bd12c6317673a97</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-09 18:01:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>order_by</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-09 18:01:05</sys_created_on>
+            <sys_id>7e2ccb980b4213007bd12c6317673a9a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Data" display_value="Data" name="x_snc_reusable_wid_card_list_instance" sys_domain="global" view="0ce54027b33232007a6de81816a8dca1">b22ccb980b4213007bd12c6317673a97</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-09 18:01:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>order_direction</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-09 18:01:05</sys_created_on>
+            <sys_id>722ccb980b4213007bd12c6317673a9b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Data" display_value="Data" name="x_snc_reusable_wid_card_list_instance" sys_domain="global" view="0ce54027b33232007a6de81816a8dca1">b22ccb980b4213007bd12c6317673a97</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-09 18:01:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Data</caption>
+            <header>false</header>
+            <name>x_snc_reusable_wid_card_list_instance</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-09 18:01:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b22ccb980b4213007bd12c6317673a97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Data</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Reusable Widgets" source="x_snc_reusable_wid">cbefa4faf41232007f44717f642a22b4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Reusable Widgets">cbefa4faf41232007f44717f642a22b4</sys_scope>
+            <sys_update_name>sys_ui_section_b22ccb980b4213007bd12c6317673a97</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-09 18:01:05</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="SP Instance Config" name="sp_instance_config">0ce54027b33232007a6de81816a8dca1</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

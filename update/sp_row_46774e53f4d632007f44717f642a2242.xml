@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_row">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
     <sp_row action="INSERT_OR_UPDATE">
         <class_name/>
         <order>1</order>

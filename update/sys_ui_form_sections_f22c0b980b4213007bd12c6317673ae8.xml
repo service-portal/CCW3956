@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="f22c0b980b4213007bd12c6317673ae8" sys_domain="global" table="x_snc_reusable_wid_card_list_instance" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-09 18:01:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>762ccb980b4213007bd12c6317673a9b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_reusable_wid_card_list_instance" name="x_snc_reusable_wid_card_list_instance" sys_domain="global" view="0ce54027b33232007a6de81816a8dca1">f22c0b980b4213007bd12c6317673ae8</sys_ui_form>
+            <sys_ui_section caption="Data" display_value="Data" name="x_snc_reusable_wid_card_list_instance" sys_domain="global" view="0ce54027b33232007a6de81816a8dca1">b22ccb980b4213007bd12c6317673a97</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-09 18:01:05</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-09 18:01:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>362ccb980b4213007bd12c6317673a9f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_reusable_wid_card_list_instance" name="x_snc_reusable_wid_card_list_instance" sys_domain="global" view="0ce54027b33232007a6de81816a8dca1">f22c0b980b4213007bd12c6317673ae8</sys_ui_form>
+            <sys_ui_section caption="Presentation" display_value="Presentation" name="x_snc_reusable_wid_card_list_instance" sys_domain="global" view="0ce54027b33232007a6de81816a8dca1">722ccb980b4213007bd12c6317673a9c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-09 18:01:05</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-09 18:01:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7a2ccb980b4213007bd12c6317673aa1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_reusable_wid_card_list_instance" name="x_snc_reusable_wid_card_list_instance" sys_domain="global" view="0ce54027b33232007a6de81816a8dca1">f22c0b980b4213007bd12c6317673ae8</sys_ui_form>
+            <sys_ui_section caption="Behavior" display_value="Behavior" name="x_snc_reusable_wid_card_list_instance" sys_domain="global" view="0ce54027b33232007a6de81816a8dca1">ba2ccb980b4213007bd12c6317673a9f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-09 18:01:05</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_reusable_wid_card_list_instance</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-09 18:01:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f22c0b980b4213007bd12c6317673ae8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_reusable_wid_card_list_instance</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Reusable Widgets" source="x_snc_reusable_wid">cbefa4faf41232007f44717f642a22b4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Reusable Widgets">cbefa4faf41232007f44717f642a22b4</sys_scope>
+            <sys_update_name>sys_ui_form_sections_f22c0b980b4213007bd12c6317673ae8</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-09 18:01:05</sys_updated_on>
+            <sys_user/>
+            <view display_value="SP Instance Config" name="sp_instance_config">0ce54027b33232007a6de81816a8dca1</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

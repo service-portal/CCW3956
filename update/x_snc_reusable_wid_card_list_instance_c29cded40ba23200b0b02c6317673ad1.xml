@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="x_snc_reusable_wid_card_list_instance">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_reusable_wid_card_list_instance">
     <x_snc_reusable_wid_card_list_instance action="INSERT_OR_UPDATE">
         <active>true</active>
         <class_name/>

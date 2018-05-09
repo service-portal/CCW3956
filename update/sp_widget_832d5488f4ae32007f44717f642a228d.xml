@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_widget">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
     <sp_widget action="INSERT_OR_UPDATE">
+        <category/>
         <client_script><![CDATA[function() {
 	/* widget controller */
 	var c = this;

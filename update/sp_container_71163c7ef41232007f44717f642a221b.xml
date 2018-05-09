@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_container">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
     <sp_container action="INSERT_OR_UPDATE">
         <background_color/>
         <background_image/>
