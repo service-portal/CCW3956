@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="x_snc_reusable_wid_card_list_instance">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_reusable_wid_card_list_instance">
     <x_snc_reusable_wid_card_list_instance action="INSERT_OR_UPDATE">
         <active>true</active>
         <class_name/>
@@ -36,7 +35,7 @@
         <table>incident</table>
         <title>Active Incidents</title>
         <url/>
-        <view display_value="Mobile" name="Mobile">be7053610b223200b0b02c6317673a4a</view>
+        <view display_value="Mobile" name="Mobile">51ba6172e13113006a801428d1f585c2</view>
         <widget_parameters><![CDATA[{
 	"priority_field": {
 		"value": "",

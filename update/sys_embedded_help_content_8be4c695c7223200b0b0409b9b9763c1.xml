@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_embedded_help_content">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_help_content">
     <sys_embedded_help_content action="INSERT_OR_UPDATE">
         <active>true</active>
         <category/>
@@ -16,6 +15,8 @@
         <sys_class_name>sys_embedded_help_content</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-05-04 19:32:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>8be4c695c7223200b0b0409b9b9763c1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>slushbucket-normal</sys_name>

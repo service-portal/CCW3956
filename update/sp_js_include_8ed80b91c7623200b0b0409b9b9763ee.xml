@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_js_include">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_js_include">
     <sp_js_include action="INSERT_OR_UPDATE">
         <display_name>populateProviders</display_name>
         <source>local</source>

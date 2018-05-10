@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="m2m_sp_ng_pro_sp_widget">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_ng_pro_sp_widget">
     <m2m_sp_ng_pro_sp_widget action="INSERT_OR_UPDATE">
         <sp_angular_provider display_value="workspaceCard">defd9b28c7223200b0b0409b9b97638c</sp_angular_provider>
         <sp_widget display_value="Card List">832d5488f4ae32007f44717f642a228d</sp_widget>

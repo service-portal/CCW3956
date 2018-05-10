@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_dependency">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_dependency">
     <sp_dependency action="INSERT_OR_UPDATE">
         <module/>
         <name>Designer workaround</name>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_dictionary action="INSERT_OR_UPDATE" element="view" table="x_snc_reusable_wid_card_list_instance">
         <active>true</active>
         <array>false</array>
@@ -31,6 +30,8 @@
         <element>view</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
         <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
@@ -52,7 +53,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-04-30 13:11:33</sys_created_on>
-        <sys_id>7b7b9a2a0b2a3200b0b02c6317673a73</sys_id>
+        <sys_id>8fc214380b0213007bd12c6317673a37</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>View</sys_name>
         <sys_package display_value="Reusable Widgets" source="x_snc_reusable_wid">cbefa4faf41232007f44717f642a22b4</sys_package>
@@ -60,7 +61,7 @@
         <sys_scope display_value="Reusable Widgets">cbefa4faf41232007f44717f642a22b4</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_reusable_wid_card_list_instance_view</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2017-05-08 18:23:52</sys_updated_on>
+        <sys_updated_on>2018-05-10 17:48:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

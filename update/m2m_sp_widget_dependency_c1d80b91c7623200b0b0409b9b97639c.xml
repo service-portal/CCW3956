@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="m2m_sp_widget_dependency">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
     <m2m_sp_widget_dependency action="INSERT_OR_UPDATE">
         <sp_dependency display_value="Designer workaround">3aa80b91c7623200b0b0409b9b976355</sp_dependency>
         <sp_widget display_value="Card List">832d5488f4ae32007f44717f642a228d</sp_widget>

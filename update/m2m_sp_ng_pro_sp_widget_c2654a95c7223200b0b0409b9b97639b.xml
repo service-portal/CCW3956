@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="m2m_sp_ng_pro_sp_widget">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_ng_pro_sp_widget">
     <m2m_sp_ng_pro_sp_widget action="INSERT_OR_UPDATE">
         <sp_angular_provider display_value="workspaceData">e98fb555c7223200b0b0409b9b976389</sp_angular_provider>
         <sp_widget display_value="Workspace header">223a800dc7623200b0b0409b9b9763bc</sp_widget>

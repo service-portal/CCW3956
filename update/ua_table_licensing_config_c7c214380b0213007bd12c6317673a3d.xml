@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="ua_table_licensing_config">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
     <ua_table_licensing_config action="INSERT_OR_UPDATE">
         <is_fulfillment>false</is_fulfillment>
         <license_condition/>
@@ -13,13 +12,13 @@
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-04-30 13:07:13</sys_created_on>
-        <sys_id>7f7b9a2a0b2a3200b0b02c6317673a78</sys_id>
+        <sys_id>c7c214380b0213007bd12c6317673a3d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_snc_reusable_wid_card_list_instance</sys_name>
         <sys_package display_value="Reusable Widgets" source="x_snc_reusable_wid">cbefa4faf41232007f44717f642a22b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reusable Widgets">cbefa4faf41232007f44717f642a22b4</sys_scope>
-        <sys_update_name>ua_table_licensing_config_7f7b9a2a0b2a3200b0b02c6317673a78</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_c7c214380b0213007bd12c6317673a3d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2017-04-30 13:07:13</sys_updated_on>
     </ua_table_licensing_config>
